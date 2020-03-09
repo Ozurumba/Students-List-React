@@ -24,6 +24,7 @@ import Compare from "./Compare"
 import History from "./History"
 import PageNotFound from "./PageNotFound"
 import Avatar from "./Avatar";
+import Footer from "./Layout/Footer";
 
 const drawerWidth = 240;
 
@@ -75,7 +76,7 @@ const App = props => {
       <div className={classes.toolbar}> 
         <img
               style={{ flex: 'center' }}
-              src="https://lh3.googleusercontent.com/proxy/Fq3eKy-wnYASBeprICtywkhgnYkJANHATMTGXinCgL0BZGSgV1KtnffQTimD9jqUOSWIBI4riAQYF7ZizgG6_g43xBvg"
+              src="https://lh3.googleusercontent.com/proxy/tbPS1Z0qlDa6e8Qxxe-_ex79chHccJF7MDOUlpq7_kDakwRN9Wh1ydZDTQxrqBxhL1JoaWWNP1hZXuPRt0k9aOe2FQ8UF_E"
               alt="logo"
               width="100px"
               height="50px"
@@ -177,11 +178,17 @@ const App = props => {
        <Route path="/history" component={History} />
        <Route component={PageNotFound} />
       </Switch>
-
+      <button>Logout</button>
+      <div>
+        
+      
+      </div>
+      <Footer />
       </main>
     </div>
   );
 };
+
 
 
 export default App;

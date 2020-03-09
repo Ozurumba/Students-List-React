@@ -55,20 +55,20 @@ const History = () => {
                 <Table.Body>
                 <Table.Row>
                     <Table.Cell>
-                    <Label ribbon>Kelechi</Label>
+                    <Label ribbon>Kelechi Bruce</Label>
                     </Table.Cell>
                     <Table.Cell>20</Table.Cell>
-                    <Table.Cell>{<FlipCameraAndroidIcon style={{cursor: "pointer"}} onClick={handleOnClick} />} {<LaunchIcon />}</Table.Cell>
+                    <Table.Cell>{<FlipCameraAndroidIcon style={{cursor: "pointer"}} onClick={handleOnClick} />} {<LaunchIcon style={{cursor: "alias"}} onClick={handleOnClick} />}</Table.Cell>
                 </Table.Row>
                 <Table.Row>
-                    <Table.Cell>Obinna</Table.Cell>
+                    <Table.Cell>Obinna Ozurumba</Table.Cell>
                     <Table.Cell>10</Table.Cell>
-                    <Table.Cell>{<FlipCameraAndroidIcon onClick={handleOnClick} />}  {<LaunchIcon />}</Table.Cell>
+                    <Table.Cell>{<FlipCameraAndroidIcon style={{cursor: "pointer"}} onClick={handleOnClick} />}  {<LaunchIcon style={{cursor: "alias"}} onClick={handleOnClick}/>}</Table.Cell>
                 </Table.Row>
                 <Table.Row>
-                    <Table.Cell>Emma</Table.Cell>
+                    <Table.Cell>Emma Smart</Table.Cell>
                     <Table.Cell>15</Table.Cell>
-                    <Table.Cell>{<FlipCameraAndroidIcon onClick={handleOnClick} />}  {<LaunchIcon />}</Table.Cell>
+                    <Table.Cell>{<FlipCameraAndroidIcon style={{cursor: "pointer"}} onClick={handleOnClick} />}  {<LaunchIcon style={{cursor: "alias"}} onClick={handleOnClick}/>}</Table.Cell>
                 </Table.Row>
                 </Table.Body>
 

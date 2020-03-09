@@ -161,12 +161,15 @@ const Sidebar = props => {
             {drawer}
           </Drawer>
         </Hidden>
+        
       </nav>
       <main className={classes.content}>
+      
         <div className={classes.toolbar} />
-
+        
        <Compare />
       </main>
+      
     </div>
   );
 };
